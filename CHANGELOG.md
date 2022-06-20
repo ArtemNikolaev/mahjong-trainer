@@ -6,6 +6,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- basic page structure
-- page background
-- main container for app
+- main page
+- tiles svg
