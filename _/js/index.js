@@ -1,9 +1,3 @@
-import {rollMahjongDices} from "./dices/mahjongDices.module.js";
-const result = new Array(13).fill(0)
-let i = 0;
-while (i !== 1000) {
-    result[rollMahjongDices()]++;
-    i++;
-}
+import {getMahjongDeck} from "./tiles/deck.module.js";
 
-console.log(result)
+console.log(getMahjongDeck().length, getMahjongDeck())
